@@ -41,6 +41,7 @@ section {
     margin: 20px 0;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 section h2 {
@@ -65,6 +66,25 @@ ul {
     margin-left: 20px;
 }
 
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.detalhes {
+    display: none;
+    margin-top: 20px;
+}
+
 footer {
     background-color: #2c3e50;
     color: white;
@@ -73,4 +93,33 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #27ae60;
+}
+
+#msgSucesso {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
 }
