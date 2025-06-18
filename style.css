@@ -10,6 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    padding-bottom: 100px;
 }
 
 header {
@@ -74,6 +75,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -122,4 +124,5 @@ form button:hover {
     color: green;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 15px;
 }
